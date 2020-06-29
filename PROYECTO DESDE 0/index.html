@@ -1,142 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProyectoFinal</title>
-    <link rel="shortcut icon" href="imagenes/iconovirus.jpg" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto Final</title>
+    <link rel="shortcut icon" href="img/iconovirus.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
 </head>
+
 <body>
     <header>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Informacion</a>
-            <a href="#">Noticias</a>
-            <a href="#">Relatos</a>
-            <a href="#">Contacto</a>
+            <a href="index.html">Inicio</a>
+            <a href="#INFORMACION">Informacion</a>
+            <a href="#NOTICIAS">Noticias</a>
+            <a href="#RELATOS">Relatos</a>
+            <a href="contacto/index.html">Contacto</a>
         </nav>
         <section class="textos-header">
-            <h1>COVIPACI</h1>
+            <h1 class="TIT-PRINCIPAL">COVIPACI</h1>
             <h2>Noticias, informacion, curiosidades y muchos detalles en un sitio</h2>
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
     </header>
     <main>
-        <section class="contenedor informacion">
+        <section class="contenedor informacion" id="INFORMACION">
             <h2 class="titulo">INFORMACION DE INDUMENTARIAS</h2>
             <div class="contenedor-informacion">
-                <img src="imagenes/ilustracion1.jpg" alt="" class="imagen-about-us">
+                <img src="img/ilustracion1.jpg" alt="" class="imagen-informacion">
                 <div class="contenido-textos">
-                    <h3><span>1 </span> BARBIJOS</h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore commodi facere vitae provident rerum possimus architecto, in autem mollitia neque quas aut eius dolores saepe! Vero, libero at. Praesentium, ullam?</P>
-                    <h3><span>2 </span> LENTES PROTECTORES</h3>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore commodi facere vitae provident rerum possimus architecto, in autem mollitia neque quas aut eius dolores saepe! Vero, libero at. Praesentium, ullam?</P>
-                </div> 
+                    <h3><span>1 </span>BARBIJOS</h3>
+                    <p>La mascarilla N95 o cubrebocas N95 es un tipo de mascarilla filtradora, que filtra hasta el 95% 
+                        de las particulas aereas. Se suelen usar en entornos laborables en que se hallan particulas nocivas 
+                        y mutagenicas, por lo tanto son altamente recomendables de usar</p>
+                    <h3><span>2 </span>GAFAS PROTECTORAS</h3>
+                    <p>Las Gafas de seguridad son mas recomendados que los lentes de seguridad, debido a que las gafas proporcionan
+                       una cobertura completa de los ojos, ya que mientras los lentes de seguridad protegen solo el frente y 
+                       los lados de los ojos, las gafas de seguridad ofrecen una proteccion integral</p>
+                    <h3><span>3 </span>TRAJE DE BIOSEGURIDAD</h3>
+                    <p>Al momento de salir a la calle la indumentarioa que se usa es especialmente vulnerada a la situacion actual del
+                        coronavirus, por este motivo usar un traje de biosegurida, segun expertos si bien no es algo indispensable pero
+                        si ayuda a que no nos contaminemos en lugares concurridos</p>    
+                </div>
             </div>
         </section>
-        <section class="noticiass">
+        <section class="noticias" id="NOTICIAS">
             <div class="contenedor">
                 <h2 class="titulo">NOTICIAS</h2>
                 <div class="noticias-port">
                     <div class="imagen-not">
-                        <img src="imagenes/img1.jpg" alt="">
-                        <div class="hover-noticas">
-                            <img src="imagenes/target.png" alt="">
-                            <p>Noticas Recientes</p>
+                        <img src="img/img1.jpg" alt="">
+                        <div class="hover-noticias">
+                            <a href="https://www.minsalud.gob.bo/"><img src="img/target.png" alt=""></a>
+                            <p>Noticias recientes</p>
                         </div>
                     </div>
-
                     <div class="imagen-not">
-                        <img src="imagenes/img2.jpg" alt="">
-                        <div class="hover-noticas">
-                            <img src="imagenes/target.png" alt="">
-                            <p>Noticas Recientes</p>
+                        <img src="img/img2.jpg" alt="">
+                        <div class="hover-noticias">
+                            <a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses?gclid=EAIaIQobChMI2t-Nlqqm6gIVTAaRCh3tVwUtEAAYASAAEgL1L_D_BwE"><img src="img/target.png" alt=""></a>
+                            <p>Estudios Actualizados</p>
                         </div>
                     </div>
-
                     <div class="imagen-not">
-                        <img src="imagenes/img3.jpg" alt="">
-                        <div class="hover-noticas">
-                            <img src="imagenes/target.png" alt="">
-                            <p>Noticas Recientes</p>
+                        <img src="img/img3.jpg" alt="">
+                        <div class="hover-noticias">
+                            <a href="https://www.bbc.com/mundo/noticias-52472090"><img src="img/target.png" alt=""></a>
+                            <p>Avanzes de la vacuna</p>
                         </div>
                     </div>
-
                     <div class="imagen-not">
-                        <img src="imagenes/img4.jpg" alt="">
-                        <div class="hover-noticas">
-                            <img src="imagenes/target.png" alt="">
-                            <p>Noticas Recientes</p>
+                        <img src="img/img4.jpg" alt="">
+                        <div class="hover-noticias">
+                            <a href="https://www2.deloitte.com/ec/es/pages/strategy/articles/el-impacto-economico-de-covid-19--nuevo-coronavirus-.html"><img src="img/target.png" alt=""></a>
+                            <p>Impacto Economico</p>
                         </div>
                     </div>
-
                     <div class="imagen-not">
-                        <img src="imagenes/img5.jpg" alt="">
-                        <div class="hover-noticas">
-                            <img src="imagenes/target.png" alt="">
-                            <p>Noticas Recientes</p>
+                        <img src="img/img5.jpg" alt="">
+                        <div class="hover-noticias">
+                            <a href="https://www.mayoclinic.org/es-es/diseases-conditions/coronavirus/symptoms-causes/syc-20479963"><img src="img/target.png" alt=""></a>>
+                            <p>Sintomas y peligros</p>
                         </div>
                     </div>
-
                     <div class="imagen-not">
-                        <img src="imagenes/img6.jpg" alt="">
-                        <div class="hover-noticas">
-                            <img src="imagenes/target.png" alt="">
-                            <p>Noticas Recientes</p>
+                        <img src="img/img6.jpg" alt="">
+                        <div class="hover-noticias">
+                            <a href="https://www.youtube.com/watch?v=amciB1Ka3Z8"><img src="img/target.png" alt=""></a>>
+                            <p>Impacto en la bolsa mundial</p>
+                        </div>
+                    </div>
+                    <div class="imagen-not">
+                        <img src="img/img7.jpg" alt="">
+                        <div class="hover-noticias">
+                            <a href="https://boliviaemprende.com/publicaciones/los-posibles-impactos-economicos-de-covid-19-en-familias-pequenas-empresas-y-comunidades"><img src="img/target.png" alt=""></a>
+                            <p>Peligros socioeconomicos relacionados</p>
+                        </div>
+                    </div>
+                    <div class="imagen-not">
+                        <img src="img/img8.jpg" alt="">
+                        <div class="hover-noticias">
+                            <a href="https://www.youtube.com/watch?v=US2eN3xbu_I&t=18s"><img src="img/target.png" alt=""></a>
+                            <p>Despues del virus</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="pacientes contenedor">
-            <h2 class="titulo">testimonios de pacientes</h2>
-            <div class="cards">
-
-                <div class="card">
-                    <img src="imagenes/face1.jpg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Paciente: </h4>
-                        <p>“Nadie sabe dónde se puede contagiar, no estamos libres de eso.... Recomiendo a la población tener mucho cuidado y respetar las normas de las autoridades” </p>
+        <section class="pacientes contenedor" id="RELATOS">
+            <h2 class="titulo">TESTIMONIOS DE PACIENTES</h2>
+            <div class="pacientes">
+                <div class="paciente">
+                    <img src="img/face1.jpg" alt="">
+                    <div class="contenido-texto-paci">
+                        <h4>PACIENTE: </h4>
+                        <p>“Nadie sabe donde se puede contagiar, no estamos libres de eso.... 
+                            Recomiendo a la poblacion tener mucho cuidado y respetar las normas de las autoridades” <a href="https://www.paginasiete.bo/sociedad/2020/3/24/como-es-el-coronavirus-pacientes-cuentan-sus-experiencias-250701.html">Mas info</a></p>
                     </div>
                 </div>
-
-                <div class="card">
-                    <img src="imagenes/face2.jpg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Paciente: </h4>
-                        <p>“Yo he llegado con mi camión vacío a mi casa. Siempre he tenido gastritis, no me pasaba y me he dirigido al hospital Cristo de Las Américas; en ningún momento he andado por las calles. Justo me avisan ahí (en el hospital) que yo tenía este virus” </p>
+                <div class="paciente">
+                    <img src="img/face2.jpg" alt="">
+                    <div class="contenido-texto-paci">
+                        <h4>PACIENTE: </h4>
+                        <p>“Yo he llegado con mi camion vacio a mi casa.
+                            me he dirigido al hospital Cristo de Las Americas; en ningun momento he andado por las calles. 
+                            Justo me avisan ahi que di positivo al virus” <a href="https://www.lostiempos.com/oh/actualidad/20200515/testimonios-bolivianos-coronavirus-cuerpo">Mas info</a></p>
                     </div>
                 </div>
-
             </div>
         </section>
-        <section class="CURIOSIDADES">
+        <section class="curiosidades">
             <div class="contenedor">
                 <h2 class="titulo">CURIOSIDADES</h2>
                 <div class="curiosidades-cont">
                     <div class="curiosidad-ind">
-                        <img src="imagenes/curi1.jpg" alt="">
-                        <h3>Curiosidad #1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, repellat.</p>
+                        <a href="https://www.caeme.org.ar/virus-y-bacterias-que-son-y-en-que-se-diferencian/"><img src="img/curi1.jpg" alt=""></a>
+                        <h3>CURIOSIDAD #1</h3>
+                        <p>Los Virus difieren mucho de las bacterias, entre otras cosas en su tratamiento</p>
                     </div>
-
                     <div class="curiosidad-ind">
-                        <img src="imagenes/curi2.jpg" alt="">
-                        <h3>Curiosidad #2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, repellat.</p>
+                        <a href="https://www.bbc.com/mundo/noticias-52512680"><img src="img/curi2.jpg" alt=""></a>
+                        <h3>CURIOSIDAD #2</h3>
+                        <p>Como cambiara el mundo despues del coronavirus?
+                           esta y mas preguntas analizadas por expertos
+                        </p>
                     </div>
-
                     <div class="curiosidad-ind">
-                        <img src="imagenes/curi3.jpg" alt="">
-                        <h3>Curiosidad #3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, repellat.</p>
+                        <a href="https://www.nationalgeographic.com.es/ciencia/7-tipos-coronavirus-que-infectan-humanos_15353"><img src="img/curi3.jpg" alt=""></a>>
+                        <h3>CURIOSIDAD #3</h3>
+                        <p>Cuantos tipos de coronavirus existen y en que se diferencian unas
+                           de otras?, mutacion del virus y otros detalles</p>
                     </div>
-
                 </div>
             </div>
-
         </section>
     </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Telefono</h4>
+                <p>75734757</p>
+            </div>
+            <div class="content-foo">
+                <h4>Correo</h4>
+                <p>Laime774@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ciudad</h4>
+                <p>Cochabamba</p>
+            </div>
+        </div>
+        <h2 class="titulo-final"> Alexis Laime | Proyecto Final</h2>
+        <h2 class="fecha"><script src="js/fecha.js"></script></h2>
+    </footer>
 </body>
+
 </html>

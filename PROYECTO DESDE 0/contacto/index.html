@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <form action="" class="form">
+            <div class="form-header">
+                <h1 class="form-title">C<span>ontacto</span></h1>  
+            </div>
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input type="text" id="nombre" class="form-input" placeholder="Escriba su nombre">
+
+            <label for="situacion" class="form-label">Situacion:</label>
+            <input type="text" id="situacion" class="form-input" placeholder="indique su situacion"> 
+
+            <label for="ciudad" class="form-label">Ciudad:</label>
+            <select name="ciudad" id="ciudad" class="form-input" placeholder="Indique su ciudad">
+                <option value="potosi" class="seleccion">potosi</option>
+                <option value="potosi" class="seleccion">sucre</option>
+                <option value="potosi" class="seleccion">Cochabamba</option>
+                <option value="potosi" class="seleccion">Oruro</option>
+                <option value="potosi" class="seleccion">Tarija</option>
+                <option value="potosi" class="seleccion">Beni</option>
+                <option value="potosi" class="seleccion">Pando</option>
+                <option value="potosi" class="seleccion">Santa Cruz</option>
+                <option value="potosi" class="seleccion">Lapaz</option>
+            </select>  
+
+            <label for="mensaje" class="form-label">Mensaje:</label>
+            <textarea id="mensaje" class="form-textarea" placeholder="Escriba su mensaje"></textarea>
+            <input type="submit" class="btn-submit" value="Enviar mensaje">
+        </form>
+    </div>
+</body>
+</html>
